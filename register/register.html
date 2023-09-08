@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!--css style-->
+    <link rel="stylesheet" href="register.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--faxicon-->
+    <link rel="shortcut icon"  href="/images/safedrawlogos.png" type="image/x-icon">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!--navbar-->
+    <header id="full_nav">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="/homepage.html">
+                        <img class="img" src="/images/safedrawlogos.png" alt="safedrawlogos">
+                      </a>
+                      <button style="color: red;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class=""></span> -->
+                        <i class="fa-solid fa-bars-staggered  navbar-toggler-icon"></i>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto" >
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/homepage.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/about/about.html">About us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/contact/contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/help/help.html">Help</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/blog/blog.html">Blog</a>
+                          </li>
+                          <!-- <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li> -->
+                        </ul>
+                         <button type="button" class="btn btn-danger" > <i class="fa-solid fa-user-plus"></i>My Account</button>
+                         <a href="/login/login.html"><div class="btn"> <button type="button" class="btn btn-danger" > <i class="fa-solid fa-lock"></i>login</button></div></a>
+                      
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    
+  
+    
+        <div class="container">
+            <h1>Register</h1>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <select id="country-code" name="country-code">
+                      <option value="+234">+234 (Nig)</option>
+                        <option value="+1">+1 (USA)</option>
+                        <option value="+44">+44 (UK)</option>
+                        
+                        <!-- Add more options for different countries -->
+                    </select>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="accept-terms">I accept the terms and conditions:</label>
+                    <input type="checkbox" id="accept-terms" name="accept-terms" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+        
+    
+       
+        <footer>
+            <section class="footer-top-area pt-70 pb-30 pos-r bg-blue" style="height: auto !important;">
+              <div class="container" style="height: auto !important;">
+              <div class="row row-tb-20" style="height: auto !important;">
+              <div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4572519802092075" data-adsbygoogle-status="done" style="display: block; margin-top: 10px; margin-bottom: 10px; background-color: transparent; height: 280px; transition: none 0s ease 0s; outline: none; border: none; padding: 0px; border-spacing: 0px; z-index: auto;" data-ad-status="unfilled"><div id="aswift_7_host" style="border: none; height: 0px; width: 686px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;" tabindex="0" title="Advertisement" aria-label="Advertisement"><iframe id="aswift_7" name="aswift_7" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 686px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="686" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&amp;us_privacy=1---&amp;client=ca-pub-4572519802092075&amp;output=html&amp;h=280&amp;adk=1038337647&amp;adf=3984341835&amp;pi=t.aa~a.4001061948~rp.1&amp;w=686&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1693648269&amp;rafmt=1&amp;to=qs&amp;pwprc=5823981866&amp;format=686x280&amp;url=https%3A%2F%2Fwww.safedraws.com%2F&amp;fwr=0&amp;pra=3&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;fa=40&amp;uach=WyJBbmRyb2lkIiwiNi4wIiwiIiwiTmV4dXMgNSIsIjExNi4wLjU4NDUuMTQxIixbXSwxLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjExNi4wLjU4NDUuMTQxIl0sWyJOb3QpQTtCcmFuZCIsIjI0LjAuMC4wIl0sWyJHb29nbGUgQ2hyb21lIiwiMTE2LjAuNTg0NS4xNDEiXV0sMF0.&amp;dt=1693648269148&amp;bpp=2&amp;bdt=1215&amp;idt=2&amp;shv=r20230830&amp;mjsv=m202308290101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D0969280de1c1a7d7-2203404951e00044%3AT%3D1692962773%3ART%3D1693648261%3AS%3DALNI_MZVfXKPxZPRjLUvDyTleSRQuyPRVQ&amp;gpic=UID%3D00000c8ed77a92a7%3AT%3D1692962773%3ART%3D1693648261%3AS%3DALNI_MbmxUBZkzJ0QDkm7KHxznj4nPWQhw&amp;prev_fmts=0x0%2C656x280%2C656x280%2C656x280%2C686x280%2C626x280%2C686x280&amp;nras=8&amp;correlator=8395815484440&amp;frm=20&amp;pv=1&amp;ga_vid=1218011250.1692962775&amp;ga_sid=1693648269&amp;ga_hid=592715420&amp;ga_fc=1&amp;u_tz=60&amp;u_his=3&amp;u_h=734&amp;u_w=685&amp;u_ah=734&amp;u_aw=685&amp;u_cd=24&amp;u_sd=2&amp;dmc=8&amp;adx=0&amp;ady=6975&amp;biw=686&amp;bih=734&amp;scr_x=0&amp;scr_y=2881&amp;eid=44759875%2C44759926%2C44759837%2C31077371%2C44796700%2C31067146%2C31067147%2C31067148%2C31068556&amp;oid=2&amp;pvsid=3948017382513049&amp;tmod=1323834200&amp;uas=0&amp;nvt=3&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C685%2C0%2C685%2C734%2C686%2C736&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=128&amp;bc=31&amp;td=1&amp;nt=1&amp;ifi=8&amp;uci=a!8&amp;btvi=6&amp;fsb=1&amp;xpc=Em4wDsLGSY&amp;p=https%3A//www.safedraws.com&amp;dtd=351" data-google-container-id="a!8" data-google-query-id="CJPTr7vTi4EDFUzf5wMd2ZIJ_g" data-load-complete="true"></iframe></div></ins></div><div class="col-sm-12 col-md-7">
+              <div class="row row-tb-20">
+              <div class="footer-col col-sm-9">
+              <div class="footer-about">
+              <img class="mb-40" src="images/safedrawlogos.png" width="250" alt="">
+              <p class="color-light">SAFE DRAWS is the best football prediction website in the world. We provide genuine soccer predictions for lovers of football who want to make gains. If you are looking for a site that predicts football matches correctly and has the success of the punter in mind, you are at the right place. </p>
+              </div>
+              </div>
+              <div class="footer-col col-sm-6">
+              </div>
+              </div>
+              </div>
+              <div class="col-sm-12 col-md-5">
+              <div class="row row-tb-20">
+              <div class="footer-col col-sm-6">
+              <div class="footer-links">
+              <h2 class="color-lighter">Quick Links</h2>
+              <ul>
+              <li><a href="login">My Account</a>
+              </li>
+              <li><a href="about">About Us</a>
+              </li>
+              <li><a href="contact">Contact Us</a>
+              </li>
+              <li><a href="login">Today's Tips</a>
+              </li>
+              <li><a href="refund">Refund Policy</a>
+              </li>
+              <li><a href="terms">Terms of Use</a>
+              </li>
+              <li><a href="help">FAQs</a>
+              </li>
+              </ul>
+              </div>
+              </div>
+              <div class="footer-col col-sm-6">
+              <div class="footer-top-instagram instagram-widget">
+              <h2>Join Our Community</h2>
+              <div class="row row-tb-5 row-rl-5">
+              <ul class="social-icons social-icons--colored list-inline">
+              <li class="social-icons__item">
+              <a href="https://facebook.com/Safedraws"><i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li class="social-icons__item">
+              <a href="https://twitter.com/safedraws"><i class="fa-brands fa-square-twitter"></i></a>
+              </li>
+              <li class="social-icons__item">
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              </li>
+              <li class="social-icons__item">
+              <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+              </li>
+              </ul>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div></section>
+           </footer>
+           <footer id="mainFooter" class="main-footer">
+            <div class="container">
+            <div class="row">
+            <p>© Copyright by <i class="yellow-color">Safe Draws</i> All rights reserved. <span > Made with <i class="fa fa-heart pulse" style="color:#b20"></i> At <a href="" target="_blank" style="display:inline !important"><i class="red-color" style="color:#fff">SafeDraws</i></a></span> <a href="https://www.safedraws.com/ke" title="football prediction site in kenya">Football Prediction Site KE</a></p>
+            <a class="back-to-top scrollup" href="#"><i class="fa fa-angle-up"></i></a>
+            </div>
+            </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

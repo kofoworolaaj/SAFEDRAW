@@ -99,4 +99,38 @@ i{
     }
 }
 
+.free_football_tip{
+    background-color: rgb(6, 6, 43);
+    text-align: center;
+}
+table.container {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center; /* Center align the content horizontally */
+}
 
+table {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    background-color: #ffffff; /* Background color for the table */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center align the table horizontally */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+th {
+    background-color: #333333; /* Background color for table header */
+    color: #ffffff; /* Text color for table header */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Background color for even rows */
+}
+
+tr:hover {
+    background-color: #dddddd; /* Background color for hover effect */
+}

@@ -48,7 +48,9 @@ i{
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)),url(/images/jason-charters-IorqsMssQH0-unsplash.jpg);
     background-size: contain;
     background-position:center;
-    background-size:cover;;
+    background-size:cover;
+    height: 600px;
+    text-align: center;
 }
 .container {
    
@@ -69,20 +71,32 @@ i{
     text-align: center;
 }
 
-.button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff; /* Blue background color */
-    color: #fff; /* White text color */
+.button-container {
     text-align: center;
-    text-decoration: none;
-    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-
+.button:hover {
+    background-color: #2980b9;
+}
+@media screen and (max-width: 600px) {
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
 
 

@@ -98,13 +98,23 @@ i{
         font-size: 14px;
     }
 }
-
+/* .free_football_tip */
 .free_football_tip{
     background-color: rgb(6, 6, 43);
     text-align: center;
+    height: 700px;
 }
 .free_football_tip-today{
     color: white;
+}
+.caption{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 10px 10px 10px 10px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
 }
 table.container {
     max-width: 100%;
@@ -114,7 +124,7 @@ table.container {
 
 table {
     width: 100%;
-    max-width: 400px; /* Adjust the maximum width as needed */
+    max-width: 900px; /* Adjust the maximum width as needed */
     background-color: #ffffff; /* Background color for the table */
     border-collapse: collapse;
     margin: 0 auto; /* Center align the table horizontally */
@@ -137,3 +147,102 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #dddddd; /* Background color for hover effect */
 }
+
+/* monster-tips */
+/* Styles for the container */
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+/* Styles for the image */
+#responsive-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* free prediction */
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+.embed-responsive-4by3 {
+    padding-bottom: 20%;
+    background: #d60303;
+}
+.embed-responsive-4by3 h3 {
+    color: #fff;
+    font-weight: 900;
+    padding-top: 10px;
+    font-size: 30px;
+   
+}
+.stores-area-v1 .store-logo {
+    position: absolute;
+    top: 50%;
+    display: none;
+    left: 50%;}
+    img{
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+        user-select: none;
+    }
+.stores-area-v1 .store-name {
+        padding: 6px 0;
+        color: #000;
+        font-size: 18px;
+        border-top: 1px solid #f1f1f1;
+        background-color: #fff;
+        font-weight: 500;
+       
+    }
+    .ptb-10 {
+        
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+    *, *:focus, *:active, a:link, a:hover, a:visited {
+        text-decoration: none;
+        outline-offset: 0!important;
+    }
+    .panel {
+        border-radius: 3px;
+        overflow: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 0;
+    }
+    
+    .is-block {
+        display: block!important;
+    }
+    .panel {
+        margin: 0;
+    }
+    /* best-prediction */
+    .paragraph {
+       margin: 20px 10px 10px 20px;
+        line-height: 1.5;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+    .paragraph h3{
+        font-size: 20px;
+        justify-content: left;
+        line-height: 33px;
+        color: #000;
+        font-weight: 400;
+    }
+     /* footer */
+     .container-footer{
+        background-color: #000;
+     }

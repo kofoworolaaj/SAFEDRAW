@@ -5,6 +5,8 @@ body {
     padding: 0;
     background-repeat: no-repeat ;
    background-color: #fff;
+   align-items: center;
+   text-align: center;
 }.header{
     width: 100%;
 }
@@ -109,7 +111,7 @@ i{
 }
 .caption{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     margin: 10px 10px 10px 10px;
     color: red;
@@ -124,17 +126,24 @@ table.container {
 
 table {
     width: 100%;
-    max-width: 900px; /* Adjust the maximum width as needed */
+    max-width: 1000px; /* Adjust the maximum width as needed */
     background-color: #ffffff; /* Background color for the table */
     border-collapse: collapse;
     margin: 0 auto; /* Center align the table horizontally */
 }
-
+.table1{
+    width: 100%;
+    max-width: 100%; /* Adjust the maximum width as needed */
+    background-color: #ffffff; /* Background color for the table */
+    border-collapse: collapse;
+    margin: 0 auto; /* Center align the table horizontally */
+}
 th, td {
-    padding: 10px;
+    padding: 30px;
     border: 1px solid #dddddd;
     text-align: left;
 }
+
 th {
     background-color: #333333; /* Background color for table header */
     color: #ffffff; /* Text color for table header */

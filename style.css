@@ -47,7 +47,7 @@ i{
 /* .homepage */
 
 .homepage{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)),url(/images/jason-charters-IorqsMssQH0-unsplash.jpg);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)),url(./images/jason-charters-IorqsMssQH0-unsplash.jpg);
     background-size: contain;
     background-position:center;
     background-size:cover;

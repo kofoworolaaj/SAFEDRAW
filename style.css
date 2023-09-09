@@ -51,7 +51,7 @@ i{
     background-size: contain;
     background-position:center;
     background-size:cover;
-    height: 750px;
+    height: 800px;
     text-align: center;
 }
 .container {
@@ -64,7 +64,7 @@ i{
     font-size: 44px;
     text-align: center;
     color: #fff;
-    margin-top: 190px;}
+    margin-top: 150px;}
 
 .homepagep {
     font-size: 20px;

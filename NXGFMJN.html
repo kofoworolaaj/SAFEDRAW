@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Changing Table</title>
+    <style>
+        /* Initially hide tables 2 and 3 */
+#table2, #table3 {
+    display: none;
+}
+
+/* Style for the active table (table 1) */
+#table1.active {
+    display: table;
+}
+
+/* Add styles as needed for your tables */
+
+    </style>
+</head>
+<body>
+    <button id="changeTableButton">Change Table</button>
+    <table id="table1" class="active">
+        <!-- Table 1 content goes here -->
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Match</th>
+            <th>Predication</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>European Championship Qualifications</td>
+            <td>Portugal v Luxembourg</td>
+            <td>1 & OVER 2.5</td>
+            <td>9:0</td>
+        </tr>
+        <tr>
+            <td>European Championship Qualification</td>
+            <td>Croatia v Latvia</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>European Championship Qualifications</td>
+            <td>Bosnia & Herzegovina v Liechtenstein</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+    </table>
+    <table id="table2">
+        <!-- Table 2 content goes here -->
+    </table>
+    <table id="table3">
+        <!-- Table 3 content goes here -->
+    </table>
+    <script >document.addEventListener('DOMContentLoaded', function() {
+        const changeTableButton = document.getElementById('changeTableButton');
+        const table1 = document.getElementById('table1');
+        const table2 = document.getElementById('table2');
+        const table3 = document.getElementById('table3');
+    
+        changeTableButton.addEventListener('click', function() {
+            // Check which table is currently active and toggle it
+            if (table1.classList.contains('active')) {
+                table1.classList.remove('active');
+                table2.classList.add('active');
+            } else if (table2.classList.contains('active')) {
+                table2.classList.remove('active');
+                table3.classList.add('active');
+            } else {
+                table3.classList.remove('active');
+                table1.classList.add('active');
+            }
+        });
+    });
+    </script>
+</body>
+</html>

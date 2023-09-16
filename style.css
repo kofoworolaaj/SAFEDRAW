@@ -181,7 +181,12 @@ th {
     color: #ffffff; /* Text color for table header */
 }
 
-
+@media (max-width: 600px) {
+    /* Styles for smaller screens */
+    th, td {
+      font-size: 12px;
+    }
+  }
 
 /* monster-tips */
 /* Styles for the container */

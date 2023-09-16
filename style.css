@@ -116,7 +116,7 @@ i{
 }
 /* .free_football_tip */
 .free_football_tip{
-    background-color: rgb(6, 6, 43);
+    background-color: rgb(151, 8, 32);
     text-align: center;
     height: 700px;
 }
@@ -190,7 +190,7 @@ th {
         overflow-x: auto;
     }
     .free_football_tip{
-        background-color: rgb(96, 12, 31);
+        background-color: rgb(6, 6, 43);
         text-align: center;
         height: 500px;
     }

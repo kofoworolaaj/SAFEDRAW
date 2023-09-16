@@ -189,6 +189,11 @@ th {
         text-align: center; /* Center align the content horizontally */
         overflow-x: auto;
     }
+    .free_football_tip{
+        background-color: rgb(96, 12, 31);
+        text-align: center;
+        height: 500px;
+    }
   }
 
 /* monster-tips */

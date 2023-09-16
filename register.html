@@ -112,12 +112,19 @@
                         </div>
                       </div>
     
-                      <div class="form-check d-flex justify-content-center mb-2">
-                        <input class="form-check-input md-1" type="checkbox" value="" id="form2Example3cg" />
-                        <label class="form-check-label" for="form2Example3g">
-                          I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                      <div class="checkbox-container">
+                        <label class="checkbox-label">
+                            <input type="checkbox" class="checkbox-input" id="agree-terms" required>
+                            <span class="checkbox-custom"></span>
+                            I agree to all the statements in the Terms of Service
                         </label>
-                      </div>
+                    </div>
+                      <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                
     
                       <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <button type="button" class="btn btn-primary btn-lg">Register</button>

@@ -141,15 +141,10 @@ i{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
-table.container {
-    max-width: 100%;
-    padding: 20px;
-    text-align: center; /* Center align the content horizontally */
-}
+
 
 table{
-    width: 100%;
-    max-width: 1000px; /* Adjust the maximum width as needed */
+    /* Adjust the maximum width as needed */
     background-color:rgb(255, 255, 255); /* Background color for the table */
     border-collapse: collapse;
     margin: 0 auto; /* Center align the table horizontally */
@@ -171,7 +166,7 @@ table{
 }
 
 th, td {
-    padding: 30px;
+    padding:30px;
     border: 1px solid #dddddd;
     text-align: left;
 }
@@ -184,7 +179,15 @@ th {
 @media (max-width: 600px) {
     /* Styles for smaller screens */
     th, td {
-      font-size: 12px;
+      font-size: 10px;
+      padding:10px;
+    }
+    .table.container {
+        width: 100%;
+        max-width: 1000px;
+        padding: 10px;
+        text-align: center; /* Center align the content horizontally */
+        overflow-x: auto;
     }
   }
 

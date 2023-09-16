@@ -116,7 +116,7 @@ i{
 }
 /* .free_football_tip */
 .free_football_tip{
-    background-color: rgb(151, 8, 32);
+    background-color: rgb(4, 4, 41);
     text-align: center;
     height: 700px;
 }
@@ -125,10 +125,10 @@ i{
 }
 .caption{
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     margin: 10px 10px 10px 10px;
-    color: red;
+    color: rgb(159, 7, 7);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
@@ -194,6 +194,8 @@ th {
         text-align: center;
         height: 500px;
     }
+   
+    
   }
 
 /* monster-tips */
@@ -202,14 +204,10 @@ th {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 30vh;
     background-color: #f0f0f0; /* Optional background color */
 }
 
-*{
-    padding: 0;
-    margin: 0;
-}
 
 .smarth1{
     padding: 30px;
@@ -230,7 +228,7 @@ th {
 
 body{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 }
 
 .container-smart{

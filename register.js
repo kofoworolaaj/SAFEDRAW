@@ -1,17 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const registrationForm = document.getElementById('registration-form');
 
-  registrationForm.addEventListener('submit', function (e) {
-      e.preventDefault();
+const sign_in_btn = document.querySelector("#sign-in-btn");
+const sign_up_btn = document.querySelector("#sign-up-btn");
+const container = document.querySelector(".container");
 
-      const password = document.getElementById('password').value;
-      const confirmPassword = document.getElementById('confirm-password').value;
+sign_up_btn.addEventListener("click", () => {
+  container.classList.add("sign-up-mode");
+});
 
-      if (password !== confirmPassword) {
-          alert('Passwords do not match');
-      } else {
-          alert('Registration successful!');
-          registrationForm.reset();
-      }
-  });
+sign_in_btn.addEventListener("click", () => {
+  container.classList.remove("sign-up-mode");
 });

@@ -1,313 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <!--css style-->
-    <link rel="stylesheet" href="register.css">
-    <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--faxicon-->
-    <link rel="shortcut icon"  href="/images/safedrawlogos.png" type="image/x-icon">
-    <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-    <!--navbar-->
-    <header id="full_nav">
-        <div class="header">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="index.html">
-                        <img class="img" src="/images/safedrawlogos.png" alt="safedrawlogos">
-                      </a>
-                      <button style="color: red;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <span class=""></span> -->
-                        <i class="fa-solid fa-bars-staggered  navbar-toggler-icon"></i>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto" >
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="help.html">Help</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                          </li>
-                          <!-- <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                          </li> -->
-                        </ul>
-                         <button type="button" class="btn btn-danger" > <i class="fa-solid fa-user-plus"></i>My Account</button>
-                         <a href="login.html"><div class="btn"> <button type="button" class="btn btn-danger" > <i class="fa-solid fa-lock"></i>login</button></div></a>
-                      
-                      </div>
-                    </div>
-                  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="register.css" />
+    <title>Register & login</title>
+    <link rel="shortcut icon" href="images/safedrawlogos.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Login</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
             </div>
-        </div>
-    </header>
-    
-  
-    
-    <section class="vh-50" style="background-color: #eee; ">
-      <div class="container h-50">
-        <div class="row d-flex justify-content-center align-items-center h-50">
-          <div class="col-lg-12 col-md-11">
-            <div class="card text-black" style="border-radius: 25px;">
-              <div class="card-body p-md-5">
-                <div class="row justify-content-center">
-                  <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
-    
-                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Register</p>
-    
-                    <form class="mx-1 mx-md-4">
-    
-                      <div class="d-flex flex-row align-items-center mb-2">
-                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0">
-                          <input type="text" id="form3Example1c" class="form-control" />
-                          <label class="form-label" for="form3Example1c">Your Name</label>
-                        </div>
-                      </div>
-    
-                      <div class="d-flex flex-row align-items-center mb-4">
-                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0">
-                          <input type="email" id="form3Example3c" class="form-control" />
-                          <label class="form-label" for="form3Example3c">Your Email</label>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-row align-items-center mb-4">
-                        <i class="fas fa-phone fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0">
-                          <input type="phone" id="form3Example3c" class="form-control" />
-                          <label class="form-label" for="form3Example3c">Your phone number</label>
-                        </div>
-                      </div>
-    
-                      <div class="d-flex flex-row align-items-center mb-4">
-                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0">
-                          <input type="password" id="form3Example4c" class="form-control" />
-                          <label class="form-label" for="form3Example4c">Password</label>
-                        </div>
-                      </div>
-    
-                      <div class="d-flex flex-row align-items-center mb-4">
-                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                        <div class="form-outline flex-fill mb-0">
-                          <input type="password" id="form3Example4cd" class="form-control" />
-                          <label class="form-label" for="form3Example4cd">Repeat your password</label>
-                        </div>
-                      </div>
-    
-                      <div class="checkbox-container">
-                        <label class="checkbox-label">
-                            <input type="checkbox" class="checkbox-input" id="agree-terms" required>
-                            <span class="checkbox-custom"></span>
-                            I agree to all the statements in the Terms of Service
-                        </label>
-                    </div>
-                      <div class="form-group">
-                            <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                
-    
-                      <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                        <button type="button" class="btn btn-primary btn-lg">Register</button>
-                      </div>
-                      <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html"
-                        class="fw-bold text-body"><u>Login here</u></a></p>
-    
-                    </form>
-    
-                  </div>
-                  <div class="col-md-2 col-lg-5 col-md-2 d-flex align-items-center order-1 order-md-2" >
-    
-                    <img src="images/animated football.jpg"
-                      class="img-fluid" alt="Sample image">
-    
-                  </div>
-                </div>
-              </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-       
-      <!-- footer -->
-      <div class="container-footer my-15">
-        <!-- Footer -->
-        <footer
-                class="text-center text-lg-start text-dark"
-                style="background-color: #ECEFF1; width: 100%;"
-                
-                >
-          <!-- Section: Social media -->
-          <section
-                   class="d-flex justify-content-between p-4 text-white"
-                   style="background-color: #000000"
-                   >
-            <!-- Left -->
-            <div class="me-5">
-              <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-      
-            <!-- Right -->
-            <div>
-              <a href="https://facebook.com/Safedraws" class="text-white me-4">
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="https://twitter.com/safedraws" class="text-white me-4">
+              <a href="#" class="social-icon">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="" class="text-white me-4">
+              <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-instagram"></i>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="" class="text-white me-4">
-                <i class="fab fa-linkedin"></i>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Register</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
               </a>
-            
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
             </div>
-            <!-- Right -->
-          </section>
-          <!-- Section: Social media -->
-      
-          <!-- Section: Links  -->
-          <section class="">
-            <div class="container text-center text-md-start mt-5">
-              <!-- Grid row -->
-              <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <!-- Content -->
-                  <h6 class="text-uppercase fw-bold">Safe Draws</h6>
-                  <hr
-                      class="mb-4 mt-0 d-inline-block mx-auto"
-                      style="width: 60px; background-color: #d11616; height: 2px"
-                      />
-                  <p>
-                    SAFE DRAWS is the best football prediction website in the world. We provide genuine soccer predictions for lovers of football who want to make gains. If you are looking for a site that predicts football matches correctly and has the success of the punter in mind, you are at the right place.
-                  </p>
-                </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold">Quick Links</h6>
-                  <hr
-                      class="mb-4 mt-0 d-inline-block mx-auto"
-                      style="width: 60px; background-color: #d11616#d11616; height: 2px"
-                      />
-                  <p>
-                    <a href="#!" class="text-dark">My Account  </a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">About Us</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">Today's Tips</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">Refund Policy</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">Terms Of Use</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">FAQs</a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold">Categories </h6>
-                  <hr
-                      class="mb-4 mt-0 d-inline-block mx-auto"
-                      style="width: 60px; background-color: #d11616; height: 2px"
-                      />
-                  <p>
-                    <a href="#!" class="text-dark"> Monster Tip</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">5 Odds</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">10 Odds</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">Half-time Draw</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark">
-                        Full-time Draw</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-dark"> Super Weekend</a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold">Contact</h6>
-                  <hr
-                      class="mb-4 mt-0 d-inline-block mx-auto"
-                      style="width: 60px; background-color: #d11616; height: 2px"
-                      />
-                  <p><i class="fas fa-home mr-3"></i>345 admiraltyb road lekki, Lagos</p>
-                  <p><i class="fas fa-envelope mr-3"></i> safedraws@gmail.com</p>
-                  <p><i class="fas fa-phone mr-3"></i> + 2348148024646</p>
-                  <p><i class="fas fa-print mr-3"></i> + 2347082590043</p>
-                </div>
-                <!-- Grid column -->
-              </div>
-              <!-- Grid row -->
-            </div>
-          </section>
-          <!-- Section: Links  -->
-      
-          <!-- Copyright -->
-          <div
-               class="text-center p-3"
-               style="background-color: rgba(0, 0, 0, 0.2)"
-               >
-            © Copyright by Safe Draws All rights reserved.:
-            <a class="text-dark" href=""
-               > Made with  At SafeDraws Football Prediction Site KE</a
-              >
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+          </form>
+        </div>
       </div>
-      <!-- End of .container -->
-       
-    
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Welcome to Safedraws bet Prediction, Register to start making a great prediction.
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Register
+            </button>
+          </div>
+          <img src="images/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+             Welcome back our lovely customer, Loginhere
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Login
+            </button>
+          </div>
+          <img src="images/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+
     <script src="register.js"></script>
-</body>
+  </body>
 </html>

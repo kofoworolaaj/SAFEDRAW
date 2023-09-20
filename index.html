@@ -14,11 +14,11 @@
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
+<body class = 'container-body'>
     <!--navbar-->
     <header id="full_nav">
         <div class="header">
-            <div class="container">
+            <div class="container-header">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
@@ -42,34 +42,67 @@
                           <li class="nav-item">
                             <a class="nav-link" href="help.html">Help</a>
                           </li>
-                          <!-- <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                          </li> -->
-                          <!-- <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                          </li> -->
                         </ul>
-                        <a href="register.html"> <button type="button" class="btn btn-danger" > <i class="fa-solid fa-user-plus"></i> Register</button></a>
+                        <a href="register.html"> <button type="button" class="btn btn-dark" > <i class="fa-solid fa-user-plus"></i> Register</button></a>
                         <a href="register.html"><div class="btn"> <button type="button" class="btn btn-danger" href="register.html"> <i class="fa-solid fa-lock"></i>login</button></div> </a>
                       
                       </div>
                     </div>
                   </nav>
             </div>
+            <div class="p-1 bg-danger w-100"></div>
+            <div class= "container-black">
+              <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                      
+                      <a class="link" href="http://">Monster Tips</a>  <i class="fa-solid fa-arrow-down"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                          <a class="link" href="http://">Monster Tips</a> 
+                          <a class="link" href="http://">Free Categories</a>
+                          <a class="link" href="http://">5 Odds</a>
+                          <a class="link" href="http://">10 Odds</a>
+                          <a class="link" href="http://">Half-time Draw</a>
+                          <a class="link" href="http://">Full-time Draw</a>
+                          <a class="link" href="http://">Super-Weekend</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+              
+            </div>
+            
         </div>
     </header>
     <!-- homepage -->
-    <div class="homepage">
-    <div class="container">
 
+    <div class="homepage">
+     <div class="container">
         <h1 class="homepageh1">Top Football Prediction Website Worldwide 2023</h1>
         <p class="homepagep">Are you in search of a dependable football forecast platform to assist you in making informed betting choices? Your search ends here with safedraws.com, renowned as the premier football prediction website across the globe. Our proficient analysts and tipsters furnish daily complimentary betting suggestions, encompassing both daring wagers and secure selections.</p>
-        <div class="button-cointaner">
-       <a href="register.html"> <button  class="button" id="myButton"> Register</button></a>
-        <a href="priceplan.html"><button  class="button" id="myButton">Price Plan</button></a>
-        <a href="priceplan.html"><button  class="button" id="myButton"> Make payment</button></a>
-        </div>
-      </div>
+        <div class="row container-button">
+          <div class="col-lg-3 col-xs-6">
+              
+             <a href="register.html" class="btnn pinkk" class="button" id="myButton"> 
+                 <span>Register </span>
+             </a> 
+          </div>
+          <div class="col-lg-3 col-xs-6">
+              
+             <a href="priceplan.html" class="btnn pinkk" class="button" id="myButton"> 
+                 <span>Priceplan</span>
+             </a> 
+          </div>
+          <div class="col-lg-3 col-xs-6">
+              
+             <a href="priceplan.html" class="btnn pinkk" class="button" id="myButton"> 
+                 <span >MAKE Payment</span>
+             </a> 
+          </div>
+        </div> 
+      </div> 
     </div>
     <!--free football tip-->
     <section class="free_football_tip" id="todays-tip">
@@ -359,113 +392,122 @@
                 <h1 class="caption1" >latest-wining</h1>
          <div class="table-container">
             <table class="table1">
+              <thead>
+                <tr>
+                    <th class="th1" >Date</th>
+                    <th class="th2">Match</th>
+                    <th class="th3">Prediction</th>
+                    <th class="th4">Score</th>
+                    <th class="th5">Status</th>
+                </tr>
+            </thead>
                 <tbody class="tbody1"> 
                     <tr class="tr1">
-                        <td>2023-09-06</td>
-                        <td>Libya v Equatorial Guinea</td>
-                        <td>2 DNB</td>
-                        <td>1:1</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Libya v Equatorial Guinea</td>
+                        <td class="td3">2 DNB</td>
+                        <td class="td4">1:1</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>University College Dublin v Derry City</td>
-                        <td>2 </td>
-                        <td>0.5</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">University College Dublin v Derry City</td>
+                        <td class="td3">2 </td>
+                        <td class="td4">0.5</td>
+                        <td  class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Fjordager IF v Hvidore</td>
-                        <td>Over 2.5</td>
-                        <td>0.8</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Fjordager IF v Hvidore</td>
+                        <td class="td3">Over 2.5</td>
+                        <td class="td4">0.8</td>
+                        <td  class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Ferencváros TC v MS Kiryat Gat</td>
-                        <td>1 DNB</td>
-                        <td>1:1</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Ferencváros TC v MS Kiryat Gat</td>
+                        <td class="td3">1 DNB</td>
+                        <td class="td4">1:1</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Glasgow City LFC v Shelbourne Ladies</td>
-                        <td>1</td>
-                        <td>2.0</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Glasgow City LFC v Shelbourne Ladies</td>
+                        <td class="td3">1</td>
+                        <td class="td4">2.0</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Juventus v Okzhetpes</td>
-                        <td>1 & over 2.5</td>
-                        <td>6.0</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Juventus v Okzhetpes</td>
+                        <td class="td3">1 & over 2.5</td>
+                        <td class="td4">6.0</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Arsenal Women b Linköpings FC</td>
-                        <td>1</td>
-                        <td>3.0</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Arsenal Women b Linköpings FC</td>
+                        <td class="td3">1</td>
+                        <td class="td4">3.0</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Valur Reykjavik v Ankara BB Fomget GS</td>
-                        <td>1</td>
-                        <td>2:1</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Valur Reykjavik v Ankara BB Fomget GS</td>
+                        <td class="td3">1</td>
+                        <td class="td4">2:1</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Darlaston Townv Sporting Khalsa FC</td>
-                        <td>X or OVER 2.5</td>
-                        <td>1:1</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Darlaston Townv Sporting Khalsa FC</td>
+                        <td class="td3">X or OVER 2.5</td>
+                        <td class="td4">1:1</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>FK Železiarne Podbrezova v FK Čurkarički</td>
-                        <td>x2</td>
-                        <td>2:2</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">FK Železiarne Podbrezova v FK Čurkarički</td>
+                        <td class="td3">x2</td>
+                        <td class="td4">2:2</td>
+                        <td class="td5" >win</td>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Sepsi OSK v UTA Arad</td>
-                        <td>1</td>
-                        <td>1:0</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Sepsi OSK v UTA Arad</td>
+                        <td class="td3">1</td>
+                        <td class="td4"> 1:0</td>
+                        <td class="td5">win</td>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Næstved Boldklub v HB Køg</td>
-                        <td>GG</td>
-                        <td>3:3</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Næstved Boldklub v HB Køg</td>
+                        <td class="td3">GG</td>
+                        <td class="td4">3:3</td>
+                        <td class="td5">win</td>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>NK Tolmin v Brinje Grosulpje</td>
-                        <td>AWAY WIN EITHER HALF</td>
-                        <td>0:3</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">NK Tolmin v Brinje Grosulpje</td>
+                        <td class="td3">AWAY WIN EITHER HALF</td>
+                        <td class="td4">0:3</td>
+                        <td class="td5">win</td>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Cambridge United v Readin</td>
-                        <td>1 DNB</td>
-                        <td>1:0</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Cambridge United v Readin</td>
+                        <td class="td3">1 DNB</td>
+                        <td class="td4">1:0</td>
+                        <td class="td5">win</td>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>FC Botosani v FC Hermannstadt</td>
-                        <td>1X</td>
-                        <td>2:2</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">FC Botosani v FC Hermannstadt</td>
+                        <td class="td3">1X</td>
+                        <td class="td4">2:2</td>
+                        <td class="td5">win</td>
                     </tr>
                     <tr>
-                        <td>2023-09-06</td>
-                        <td>Lyn FK v Arendal</td>
-                        <td>1</td>
-                        <td>4:3</td>
-                        <td>win</td>
+                        <td class="td1">2023-09-06</td>
+                        <td class="td2">Lyn FK v Arendal</td>
+                        <td class="td3">1</td>
+                        <td class="td4">4:3</td>
+                        <td class="td5">win</td>
                     </tr>
                    
                 </tbody>

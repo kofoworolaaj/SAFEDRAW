@@ -405,7 +405,32 @@ body{
         margin-bottom: 20px;
     }
 }
+.container1{
+    padding: 30px;
+}
+.container1 h1{
+    color: red;
+    padding: 30px;
+}
 
+.list{
+    background-color: black;
+
+color: blue;
+border: solid black 1px;
+    padding-left: 20px;
+    padding: 20px;
+   
+    text-align: center;}
+.list1{
+    background-color: rgb(255, 0, 0);
+
+color: red;
+border: solid black 1px;
+    padding-left: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;}
 
 /* Styles for the image */
 #responsive-image {

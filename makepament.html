@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Price Plan</title>
+    <title>How to pay</title>
     <!--css style-->
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="makepayment.css">
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--faxicon-->
@@ -16,56 +16,111 @@
 <body>
     <!--navbar-->
     <header id="full_nav">
-        <div class="header">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="index.html">
-                        <img class="img" src="/images/safedrawlogos.png" alt="safedrawlogos">
-                      </a>
-                      <button style="color: red;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <span class=""></span> -->
-                        <i class="fa-solid fa-bars-staggered  navbar-toggler-icon"></i>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto" >
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="about.html">About us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="help.html">Help</a>
-                          </li>
-                          <!-- <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                          </li> -->
-                          <!-- <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                          </li> -->
-                        </ul>
-                         <button type="button" class="btn btn-danger" > <i class="fa-solid fa-user-plus"></i>My Account</button>
-                         <a href="login.html"><div class="btn"> <button type="button" class="btn btn-danger" > <i class="fa-solid fa-lock"></i>login</button></div></a>
-                      
-                      </div>
+      <div class="header">
+          <div class="container-header">
+              <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                      <img class="img" src="./images/safedrawlogos.png" alt="safedrawlogos">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <!-- <span class=""></span> -->
+                      <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav mx-auto" >
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="priceplan.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="help.html">Help</a>
+                        </li>
+                      </ul>
+                      <a href="register.html"> <button type="button" class="btn btn-dark" > <i class="fa-solid fa-user-plus"></i> Register</button></a>
+                      <a href="register.html"><div class="btn"> <button type="button" class="btn btn-danger" href="register.html"> <i class="fa-solid fa-lock"></i>login</button></div> </a>
+                    
                     </div>
-                  </nav>
+                  </div>
+                </nav>
+          </div>
+          <div class="p-1 bg-danger w-100"></div>
+          <div class= "container-black">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+              <div class="container-fluid">
+                  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    
+                    <a class="link" href="http://">Monster Tips</a>  <i class="fa-solid fa-arrow-down"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                      <div class="navbar-nav">
+                        <a class="link" href="monstertips.html">Monster Tips</a> 
+                        <a class="link" href="caterogies.html">Free Categories</a>
+                        <a class="link" href="5odds.html">5 Odds</a>
+                        <a class="link" href="10odds.html">10 Odds</a>
+                        <a class="link" href="halftime.html">Half-time Draw</a>
+                        <a class="link" href="fulltime.html">Full-time Draw</a>
+                        <a class="link" href="superweekend.html">Super-Weekend</a>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+            
+          </div>
+          
+      </div>
+  </header>
+  <div class="container-xl px-4 mt-4">
+   
+    <hr class="mt-0 mb-4">
+    <div class="row">
+        <div class="col-xl-4">
+            <!-- Profile picture card-->
+            <div class="card mb-4 mb-xl-0">
+                <div class="card-header">Bank Payment</div>
+                <div class="card-body text-center">
+                  <h5>Account Name :<h7 class="text-danger">SAFEDRAWS SERVICES</h7></h5><br>
+                  <h5>Account Number : <h7 class="text-danger">  1015279829</h7>  </h5><br>
+                  <h5>Bank :  <h7 class="text-danger">  Zenith Bank  </h7></h5><br>
+                      <center> <h5 >AFTER MAKING PAYMENT </h5></center>
+                      <h7>*After making payment-send your email address,depositors name, to <h6 class="text-danger">info@safedraws or 07082590043</h6></h7>
+                      <h6>*Once Your payment is Confirmed, Your Account will be activated</h6>
+                </div>
             </div>
         </div>
-    </header>
-    
-  <section style="height: 100px;"></section>
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Select Your Country</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </select>
-     
+        <div class="col-xl-8">
+            <!-- Account details card-->
+            <div class="card mb-4">
+                <div class="card-header"> <h2>Payment with Card</h2></div>
+                <div class="card-body">
+                 
+                  <form id="payment-form">
+                      <label for="card-number">Card Number</label>
+                      <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+          
+                      <label for="expiration-date">Expiration Date</label>
+                      <input type="text" id="expiration-date" placeholder="MM/YY" required>
+          
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" placeholder="123" required>
+          
+                      <button type="submit">Submit Payment</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+  
     <section style="height: 100px;"></section>
      <!-- footer -->
      <div class="container-footer my-15">
@@ -111,7 +166,7 @@
       
           <!-- Section: Links  -->
           <section class="">
-            <div class="container text-center text-md-start mt-5">
+            <div class="container- text-center text-md-start mt-5">
               <!-- Grid row -->
               <div class="row mt-3">
                 <!-- Grid column -->
@@ -166,23 +221,23 @@
                       style="width: 60px; background-color: #d11616; height: 2px"
                       />
                   <p>
-                    <a href="#!" class="text-dark"> Monster Tip</a>
+                    <a href="monstertips.html" class="text-dark"> Monster Tip</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-dark">5 Odds</a>
+                    <a href="5odds.html" class="text-dark">5 Odds</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-dark">10 Odds</a>
+                    <a href="10odds.html" class="text-dark">10 Odds</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-dark">Half-time Draw</a>
+                    <a href="halftime.html" class="text-dark">Half-time Draw</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-dark">
+                    <a href="fulltime.html" class="text-dark">
                         Full-time Draw</a>
                   </p>
                   <p>
-                    <a href="#!" class="text-dark"> Super Weekend</a>
+                    <a href="superweekend.html" class="text-dark"> Super Weekend</a>
                   </p>
                 </div>
                 <!-- Grid column -->

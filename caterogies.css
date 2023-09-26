@@ -34,16 +34,40 @@ i{
     color: rgb(42, 39, 39);
 
 }
+
+.container-black{
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: "lato", sans-serif;
+}
+.link:hover{
+    color: black;
+    background-color: #d60303;
+}
+@media screen and (max-width: 800px) {
 .container {
         max-width: 960px;
-        width: 100%;
+        width: 50%;
         width: calc(100% - 1rem);
         margin: 20px auto;
         padding: 20px;
         background: #ffffff;
       }
-      
-
+      h1{
+  
+        padding: 10px;
+        
+    }
+    }
 
 h1{
   

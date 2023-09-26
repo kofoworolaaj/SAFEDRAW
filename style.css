@@ -408,15 +408,14 @@ body{
 .container1{
     padding: 30px;
 }
-.container1 h1{
+.container h1{
     color: red;
     padding: 30px;
 }
 
 .list{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 
-color: blue;
 border: solid black 1px;
     padding-left: 20px;
     padding: 20px;
@@ -505,11 +504,11 @@ border: solid black 1px;
     .Best-Football-Prediction-Site{
         text-align: center; /* Center align the content */
         justify-content: left;
-        max-width: 1300px; /* Set a maximum width for the container */
-        margin: 0 auto; /* Center the container horizontally */
+        max-width: px; /* Set a maximum width for the container */
+        margin: 80px auto; /* Center the container horizontally */
         padding: 20px; /* Add some padding for spacing */
         background-color: #f0f0f0; /* Background color for the container */
-        border-radius: 10px;
+        
     }
 
     .paragraph h3{
